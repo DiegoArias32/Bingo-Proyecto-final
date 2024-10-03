@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/inicio.css">
+    <title>PRUEBA</title>
+</head>
+<body>
+  <audio id="background-music" loop autoplay>
+    <source src="musica/Herm2es.mp3" type="audio/mp3">
+    Tu navegador no admite el elemento audio.
+  </audio>
+  <div class="desktop">
+    <div class="container">
+      <a href="#" class="button-Ajustes"><img src="img/MisionesD.PNG" alt="Misiones Diarias"> </a> 
+  
+      <div class="Money">
+        <span id="monedas" ><img src="img/LogoMoneda.png" alt="Logo Moneda"> 0</span>
+      </div>
+  
+      <div class="foto-perfil">
+        <a href="#"><i class="fas fa-user"></i></a>
+      </div>
+  
+      <div class="UsernameNickname">
+        <span id="bingo-id">Bingo29482390</span>
+      </div>
+  
+      <div class="header">
+        <div class="info-box">
+          <input type="text" id="new-id" value="" placeholder="Ingresa Tu Nickname">
+          <div>
+            <button class="button" onclick="updateId()">Guardar</button>
+          </div>
+        </div>
+      </div>
+      <form action="CargaPagina.html">
+        <button type="submit" class="button">Un Jugador</button>
+        <button type="submit" class="button">Multijugador</button>
+      </form>
+      <form action="Amigos.html">
+        <div class="button-row-1">
+          <button class="button-Amigos" type="submit">Amigos</button>
+          <button class="button-Top" type="submit">Top</button>
+        </div>
+      </form>
+      <div class="button-row">
+        <a href="#" class="button-MisionesDiarias"><img src="img/MisionesDiarias.PNG" alt="Misiones Diarias" height="150px"> </a> 
+        <a href="recompensas.html" class="button-Tienda"><img src="img/recompensaDiaria.png" alt="Tienda" height="150px"> </a>  
+        <a href="#" class="button-RecompensaDiaria"><img src="img/tienda.jpeg" alt="Diario" height="150px"> </a>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+  <script src="js/GuardarNick.js"></script>
+  <script src="js/Dinero.js"></script>
+</body>
+</html>
+
+
+          

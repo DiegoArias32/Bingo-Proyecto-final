@@ -1,0 +1,85 @@
+body {
+    background-image: url(/img/FOndo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .rewards-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .reward-card {
+    background-color: #f0a550;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .reward-day {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .reward-amount {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffd700;
+  }
+
+  .reward-button {
+    background-color: #00ff00;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+.volver-button{
+    background-color: #ff0000;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+  hr {
+    border: none;
+    border-top: 1px solid #fc0000;
+    margin: 20px 0;
+  }
